@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "1.0.0-340c2c92",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production tsc --declaration --sourceMap"
+  },
+  "files": [
+    "lib"
+  ]
+}

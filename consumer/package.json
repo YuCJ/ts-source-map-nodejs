@@ -1,0 +1,14 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "package": "file:.yalc/package",
+    "source-map-support": "^0.5.16",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production tsc --sourceMap"
+  }
+}
